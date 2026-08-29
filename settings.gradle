@@ -20,14 +20,14 @@ buildscript {
 
 apply plugin: "org.mifos.conventions.gradle.boot.layout"
 
-rootProject.name = "mifos-tools"
+rootProject.name = "mifos-conventions-tools"
 
 mifos {
     project {
-        groupId = "org.mifos.tools"
-        description = "Mifos Tools"
-        basePackage = "org.mifos.tools"
-        basePath = "org/mifos/tools"
+        groupId = "org.mifos.conventions.tools"
+        description = "Mifos Conventions Tools"
+        basePackage = "org.mifos.conventions.tools"
+        basePath = "org/mifos/conventions/tools"
         inceptionYear = "2026"
     }
 
